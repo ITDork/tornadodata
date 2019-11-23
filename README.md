@@ -1,2 +1,2 @@
-# tornadodata
-Project 2 Tornado Data - a study in failure. 
+# Project-2
+A correlative representation between the distance of tornado sirens vs quantity of human death and injury

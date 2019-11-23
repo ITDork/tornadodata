@@ -9,7 +9,7 @@ var streets = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?
 }).addTo(mymap)
 
 // var sirendata;
-d3.json("/datasets/SirensDictionaries.json").then(function (sirendata) {
+d3.json("SirensDictionaries.json").then(function (sirendata) {
     // sirendata = data;
     let markers2 = L.markerClusterGroup();
 

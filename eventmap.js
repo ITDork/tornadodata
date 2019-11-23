@@ -51,7 +51,7 @@ function clicked() {
   document.getElementById("display").innerHTML = inputvalue;
   console.log(inputvalue);
 
-d3.json("/datasets/mapdata.json").then (function (data) {
+d3.json("mapdata.json").then (function (data) {
     console.log(data[0]);
 
     for (var i = 0; i < this.mapMarkers.length; i++){
